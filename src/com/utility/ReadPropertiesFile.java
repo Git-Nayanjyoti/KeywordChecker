@@ -18,5 +18,5 @@ public class ReadPropertiesFile {
 		} catch (IOException e) {
 			System.out.println("Unable to read the file!!!");
 		}
-	}
+	} 
 }
