@@ -26,7 +26,7 @@ public class KeywordChecker {
 		
 		
 		for (String fname : filePath) {
-			String path = readFiles.dir + "\\" + fname;
+			String path = readFiles.dir + "/" + fname;
 			File tempfile = new File(path);
 			
 			//object for loading pdf file using pdfbox library and stripping the data from the pdf
