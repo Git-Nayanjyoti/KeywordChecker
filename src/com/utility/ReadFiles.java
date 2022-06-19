@@ -6,7 +6,7 @@ import java.util.List;
 
 public class ReadFiles {
 	public List<String> filenames = new ArrayList<String>();
-	public String dir = "C:\\Users\\NRABHA\\eclipse-workspace\\KeywordChecker\\Resources";
+	public String dir = "../KeywordChecker/Resources";
 	
 	//method for iterating over the pdf files in the folders
 	public ReadFiles() {
