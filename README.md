@@ -15,8 +15,8 @@ The Apache PDFBox® library is an open source Java tool for working with PDF doc
 Opencsv is an easy-to-use CSV (comma-separated values) parser library for Java. Here used for writing the result to a csv file.
 
 ## Documentations
-[PdfBox documentation](https://pdfbox.apache.org/docs/2.0.0/javadocs/index.html?overview-summary.html)
-[openCSV documentation](http://opencsv.sourceforge.net/)
+PdfBox documentation [visit](https://pdfbox.apache.org/docs/2.0.0/javadocs/index.html?overview-summary.html) <br>
+openCSV documentation [visit](http://opencsv.sourceforge.net/)
 
 
 This repository will give you an idea of how we can create our own utility for performing various operation on PDF files using `PdfBox` API.
