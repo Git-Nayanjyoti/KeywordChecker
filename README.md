@@ -24,7 +24,7 @@ This repository will give you an idea of how we can create our own utility for p
 ## Libraries Used:
 * PdfBox [Download Library](https://dlcdn.apache.org/pdfbox/3.0.0-alpha3/pdfbox-app-3.0.0-alpha3.jar)
 * FontBox [Download Library](https://dlcdn.apache.org/pdfbox/3.0.0-alpha3/fontbox-3.0.0-alpha3.jar)
-* OpenCSV [Download Library]((https://jar-download.com/artifacts/com.opencsv/opencsv/4.1/source-code)
+* OpenCSV [Download Library](https://jar-download.com/artifacts/com.opencsv/opencsv/4.1/source-code)
 * Commons-logging [Download Library](https://dlcdn.apache.org//commons/logging/binaries/commons-logging-1.2-bin.tar.gz)
 
 
