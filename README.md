@@ -8,10 +8,10 @@
 ## KeywordChecker
 KeywordChecker is a utility to check for presence of certain keywords in a resume PDF format and provide %age match for further consideration. The data sources here are pdf files. The functionality of this utility is achieved mainly with the help of PDFBox library and also with Opencsv Library. 
 
-# PdfBox
+## PdfBox
 The Apache PDFBox® library is an open source Java tool for working with PDF documents. This project allows creation of new PDF documents, manipulation of existing documents and the ability to extract content from documents.
 
-# OpenCSV
+## OpenCSV
 Opencsv is an easy-to-use CSV (comma-separated values) parser library for Java. Here used for writing the result to a csv file.
 
 ## Documentations
