@@ -31,6 +31,7 @@ This repository will give you an idea of how we can create our own utility for p
 ## How to install the utility to your system
 * clone the git repo to your workspace. Use this code -
   ` git clone https://github.com/Git-Nayanjyoti/KeywordChecker.git `
+* Now Import the file to eclipse. (Import -> General -> Already existing project to eclipse -> browse the dir -> Finish)
 * Download all the libraries. (links are attached above)
 * Add the all the libraries to your Project file. (Right click -> Build path -> Add External Archives -> Select jar Source and Apply)
 
