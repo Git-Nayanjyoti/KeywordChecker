@@ -26,7 +26,7 @@ public class KeywordChecker {
 		
 		
 		for (String fname : filePath) {
-			String path = readFiles.dir + "/" + fname;
+			String path = readFiles.dir + fname;
 			File tempfile = new File(path);
 			
 			//object for loading pdf file using pdfbox library and stripping the data from the pdf
@@ -34,14 +34,14 @@ public class KeywordChecker {
 			PDFTextStripper pdfStripper = new PDFTextStripper();
 			String docText = pdfStripper.getText(pdf);
 
-			int noOfKeywords = readProperty.prop.size();
+			int noOfKeywords = readProperty.prop.size(); 
 			int percentageMatch = 0;
 			for (int i = 0; i < noOfKeywords; i++) {
 				String key = "keyword" + Integer.toString(i + 1);
 		
 				//checking if the file string generated from pdf file contains the keywords.
 				//and calculating the percentage generated
-				if (docText.toLowerCase().contains(readProperty.prop.getProperty(key))) {					
+				if (docText.toLowerCase().contains(readProperty.prop.getProperty(key))) {				
 					percentageMatch += (100 / noOfKeywords);
 				}
 			}
@@ -58,7 +58,7 @@ public class KeywordChecker {
 		}
 		
 		//writing the result generated to PercentageMatch.csv file
-		Writer outputFile = new FileWriter("PercentageMatch.csv");
+		Writer outputFile = new FileWriter("PercentageMatch.csv"); //it will create a file in the project directory named PercentageMatch.csv
 		CSVWriter writer = new CSVWriter(outputFile);
 		writer.writeAll(percentageMatch);
 		writer.close();
